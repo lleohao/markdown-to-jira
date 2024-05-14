@@ -41,6 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@shogobg/markdown2confluence": "^0.1.10",
+		"@vercel/analytics": "^1.2.2",
 		"flowbite-svelte": "^0.46.0",
 		"flowbite-svelte-icons": "^1.5.0",
 		"monaco-editor": "^0.48.0"
