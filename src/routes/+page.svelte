@@ -33,9 +33,11 @@
 </script>
 
 <svelte:head>
-	<title>Transform markdown to jira</title>
-	<meta name="description" content="Transform markdown to jira" />
-	<meta name="keywords" content="markdown,confluence,jira" />
+	<title>Convert Markdown to Jira Format | Seamless Markup Conversion Tool</title>
+	<meta
+		name="description"
+		content="Transform your Markdown documents into Jira's native format effortlessly with our online conversion tool. Maintain the integrity of your content while enhancing collaboration within Jira projects"
+	/>
 </svelte:head>
 
 <div>
