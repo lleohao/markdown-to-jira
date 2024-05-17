@@ -28,7 +28,7 @@
 
 	const removeHighlight = () => {
 		const text = getValue();
-		const result = text.replace(/==(.*?)==/g, '');
+		const result = text.replace(/==(.*?)==/g, '$1');
 		setValue(result);
 	};
 
@@ -40,7 +40,7 @@
 
 	const removeItalic = () => {
 		const text = getValue();
-		const result = text.replace(/\*(.*?)\*/g, '$1').reoplace(/_(.*?)_/g, '$1');
+		const result = text.replace(/\*(.*?)\*/g, '$1').replace(/_(.*?)_/g, '$1');
 		setValue(result);
 	};
 
